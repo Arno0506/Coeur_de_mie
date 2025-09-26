@@ -1,0 +1,701 @@
+.background-image img{
+    width: 100%;
+    height: 168vh;
+    
+}
+.header-title h1{
+     
+    font-family:'segoe script';
+    font-weight:bolder;
+    font-size: 4rem;
+    top: 10%;
+    
+    position: absolute;
+    color: goldenrod;
+   animation: flashing 20s linear infinite alternate;
+
+   
+
+    
+}
+.header-logo img{
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    top: 60px;
+    left: 110px;
+
+
+}
+
+
+.header-title h1{
+  display: none;
+}
+.header-title h2{
+    font-family:'segoe script';
+    font-weight: bolder;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: goldenrod;
+    
+animation: flashing 15s linear infinite alternate;
+    
+}
+.content-category{
+  
+  overflow-x:hidden;
+  
+}
+.content p{
+   position:absolute; 
+   top: 164%;
+   padding: 10px;
+   font-weight: bolder;
+   font-size: 1.5rem;
+   font-style: oblique;
+   font-family:'segoe script';
+   color:white;
+   background-color: brown;
+   text-align:justify;
+   width: 97.7%;
+
+}
+.content .content-category .breads{
+    
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+    left: 4%;
+
+}
+ 
+ 
+  .content .content-category .breads .bread-images img{
+    width: 400px;
+    
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+ 
+ } 
+  
+
+
+  .content .content-category .breads .bread-images img:nth-child(2){
+    animation-delay:12.25s;
+
+    
+  }
+  .content .content-category .breads .bread-images img:nth-child(3){
+    animation-delay:20.6s
+    
+  }
+  .content .content-category .breads .bread-images img:nth-child(1){
+    animation-delay:2.6s;
+    
+  }
+
+  
+  
+  
+ .breads .bread-title h3{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    border-bottom: none;
+    
+ } 
+ 
+ 
+ /************************************************* VIENNOISERIES********************************************************/  
+  
+ .content .content-category .pastries{
+    width: 450px;
+    height: 350px;
+    left:36%;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+ 
+ }
+.content .content-category .pastries .pastries-images img{
+    width: 400px;
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+    
+ }
+ .content .content-category .pastries .pastries-images img:nth-child(1){
+      height: 265px;
+ }
+ .content .content-category .pastries .pastries-images img:nth-child(2){
+      height: 265px;
+ }
+
+ .content .content-category .pastries-images img:nth-child(2){
+    animation-delay: 12.25s;
+ }
+ .content .content-category .pastries-images img:nth-child(3){
+    animation-delay: 20.6s;
+ }
+ .content .content-category .pastries-images img:nth-child(1){
+    animation-delay: 2.6s;
+ }
+ .content .content-category .pastries .pastries-title h3{
+ text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    border-bottom: none;
+ }
+ 
+
+/******************************************************CAKES********************************************/
+
+
+.content .content-category .cakes{
+    width: 450px;
+    height: 350px;
+    left:68%;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+    
+  
+}
+.content .content-category .cakes .cakes-images img{
+    width: 400px;
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+    
+}
+.content .content-category .cakes .cakes-images img:nth-child(2){
+    animation-delay: 12.25s;
+}
+.content .content-category .cakes .cakes-images img:nth-child(3){
+    animation-delay: 20.6s;
+}
+.content .content-category .cakes .cakes-images img:nth-child(1){
+    animation-delay: 2.6s;
+}
+.content .content-category .cakes .cakes-title h3{
+text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    border-bottom: none;
+}
+.content .content-category .cakes .cakes-title a{
+    text-decoration: none;
+}
+/*********************************************SIDE NAV*********************************************/
+.side-nav{
+    position: absolute;
+    font-size: 2rem;
+    text-transform: uppercase;
+    top: 70%;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    height: 40px;
+    padding-right: 10px;
+    animation: slidein forwards 3s;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.side-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav-item:hover{
+transform: scale(1.02);
+}
+
+.side-nav .side-nav-item:nth-child(2){
+   position: absolute;
+   top: 110px;
+   background-color:orchid;
+   padding-right: 10px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+.side-nav .side-nav-item:nth-child(3){
+   position: absolute;
+   bottom: 50px;
+   background-color: aqua;
+   white-space: nowrap;
+   padding-top: 4px;
+  padding-right: 10px;
+    border-bottom-right-radius: 20px;
+
+
+    
+}
+.side-nav .side-nav-item:nth-child(4){
+   position: absolute;
+   bottom: -55px;
+   background-color: rgb(0, 255, 76);
+   white-space: nowrap;
+   padding-top: 4px;
+   padding-right: 10px;
+   border-bottom-right-radius: 20px;
+    
+}
+.side-nav .side-nav-item:nth-child(5){
+   position: absolute;
+   bottom: -250px;
+   background-color: brown;
+   white-space: nowrap;
+   padding-top: 4px;
+   padding-right: 10px;
+   border-bottom-right-radius: 20px;
+   padding: 30px;
+   font-size: 3rem;
+    
+}
+
+/*********************************KEYFRAMES**************************************************/
+    
+ @keyframes slidein {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+ }
+    
+    
+
+@keyframes flashing {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+@keyframes parade {
+      0%,80%{
+        opacity:0;
+    }
+
+      50%{
+        opacity: 1;
+    }
+}
+/************************************************RESPONSIVE******************************************************/
+
+@media screen and (min-width:1201px) and (max-width:1440px){
+   .header-title h1{
+    top: 10%;
+   }  
+    .content .content-category .breads{
+    width: 350px;
+   height: 250px;
+   top: 125%;
+   left: 1%;
+    } 
+    .content .content-category .pastries{
+    width: 350px;
+   height: 250px;
+   top: 125%;
+   left:37% ;
+    } 
+   
+    .content .content-category .cakes{
+    width: 350px;
+   height: 250px;
+   left:69%;
+   top:125%;
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 2.4rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 2.4rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 2.4rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+   
+
+}
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+
+}
+ .content p{
+  top:155%;
+  text-align: justify;
+  width: 97.5%;
+ }
+
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+   
+  .header-title h1{
+    top: 10%;
+   }
+   
+    .content .content-category .breads{
+    width: 330px;
+   height: 230px;
+   left: 1%;
+   top: 120%;
+    } 
+    .content .content-category .pastries{
+    width: 330px;
+   height: 230px;
+  top: 120%;
+  left: 31%;
+    } 
+    .content .content-category .cakes{
+    width: 330px;
+   height: 230px;
+   left:61%;
+   top:120%;
+   overflow-x: hidden;
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 2rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 2rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 2rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+    
+   
+
+}
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+
+}
+ .content p{
+  top:147%;
+  text-align:left!important;
+  max-width: 90.1%!important;
+  font-size: 1.4rem;
+  overflow: hidden;
+    
+  
+ }
+ header .background-image {
+  max-width: 93%;
+ }
+
+
+}
+@media screen and (min-width:925px) and (max-width:1024px){
+   .header-title h1{
+    top: 10%;
+   }
+   
+    .content .content-category .breads{
+    width: 280px;
+   height: 260px;
+   left: 1%;
+   top: 120%;
+    } 
+    .content .content-category .breads .bread-images img{
+   width: 240px!important;
+   height: 185px;
+    } 
+    .content .content-category .pastries .pastries-images img{
+     width: 240px!important;
+     
+     
+  
+  
+    } 
+   
+    .content .content-category .cakes .cakes-images img{
+   width: 240px!important;
+   height: 185px;
+   
+   
+    } 
+    .content .content-category .pastries{
+    width: 280px;
+   height: 270px;
+  top: 120%;
+  left: 30%!important;
+    } 
+    .content .content-category .cakes{
+    width: 280px;
+   height: 260px;
+   left: 59% !important;
+   top:120%;
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 1.8rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 1.8rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 1.8rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+   
+
+}
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+
+}
+ .content p{
+  top: 148% !important;
+  text-align:left!important;
+  width: 87%!important;
+  font-size: 1.25rem;
+  height: 185px;
+  
+ }
+ .side-nav-item:nth-child(5){
+  font-size: 2.5rem!important;
+  padding:10px!important;
+  top:400% !important;
+  height: 50px;
+ }
+
+
+
+
+
+
+ header .background-image {
+  max-width: 90.5%;
+ }
+
+
+ }
+
+@media screen and (min-width:800px) and (max-width:924px){
+  .content p{
+    top: 128%;
+    width: 96.1%!important;
+     height: 280px;
+
+  }
+  header .header-title h2{
+ font-size: 1.5rem;
+  }
+ header .header-logo img{
+  left: 2%;
+ }
+
+  .content .content-category{
+    display: none;
+  }
+  header .background-image img{
+    height: 170vh;
+  }
+
+  .side-nav{
+    top: 70%!important;
+    font-size: 1.5rem;
+  }
+} 
+
+@media screen and (min-width:600px) and (max-width:799px){
+ 
+  header .header-title h2{
+    font-size: 1.2rem;
+  }
+   .side-nav{
+    font-size: 1.2rem!important;
+    top: 50%;
+    
+  }
+   .side-nav .side-nav-item:nth-child(5){
+    font-size: 1.5rem!important;
+    
+    
+  }
+   
+  header .background-image img{
+    height: 150vh;
+    max-width: 100%;
+    
+  }
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+    top: 116% !important;
+    font-size: 1.2rem;
+    max-width: 95.2%!important;
+    height: 260px;
+    
+  }
+  header .header-logo img{
+    left:6%;
+    width: 200px!important;
+  }
+} 
+
+
+@media screen and (min-width:423px) and (max-width:599px){
+
+ 
+  header .header-title h2{
+    font-size: 1.2rem;
+  }
+   .side-nav{
+    font-size: 1.1rem!important;
+    top: 50%;
+    
+    
+  }
+   .side-nav .side-nav-item:nth-child(5){
+    font-size: 1.2rem!important;
+    height: 10px; 
+      
+  }
+
+
+   
+  header .background-image img{
+    height: 102vh;
+  }
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+    top: 100% !important;
+    font-size: 1.2rem;
+    max-width: 93.9%;
+    height: 260px;
+  }
+  header .header-logo img{
+    left:6%;
+    width: 180px!important;
+  }
+}
+@media screen and (max-width:422px){
+ 
+ 
+  header .header-title h2{
+    font-size: 1.2rem;
+  }
+  
+      .side-nav .side-nav-item:nth-child(5){
+    font-size: 1.2rem!important;
+    top:0;
+    
+    height: 10px;    
+  }
+  header .side-nav{
+    display: block;
+  }
+  header .background-image img{
+    height: 100vh;
+  }
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+    top: 90% !important;
+    font-size: 1.2rem;
+    max-width: 93.5%;
+  }
+  header .header-logo img{
+    left:6%;
+    width: 150px!important;
+  }
+
+
+
+    
+  }
+
+
+
+
+
+
+
+
